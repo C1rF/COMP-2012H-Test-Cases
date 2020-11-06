@@ -1,0 +1,516 @@
+Enter Game Map textfile: #####
+#   #
+#   #
+#   #
+#####
+
+Enter Players and Units textfile: 
+#####
+#A X#
+#B Y#
+#C Z#
+#####
+
+Red:
+	[A]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 3  col: 1  DONE   Knight
+
+Blue:
+	[X]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Start the game? Y/N: GAME START
+Red's Turn:
+
+#####
+#A X#
+#B Y#
+#C Z#
+#####
+
+Red:
+	[A]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  READY  Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  READY  Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 3  col: 1  READY  Knight
+
+Blue:
+	[X]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [ABC]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+# AX#
+#B Y#
+#C Z#
+#####
+
+Red:
+	[A]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  READY  Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  READY  Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 3  col: 1  READY  Knight
+
+Blue:
+	[X]  H:10  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [X], or input / to Skip Attack: 
+#####
+# AX#
+#B Y#
+#C Z#
+#####
+
+Red:
+	[A]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  READY  Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 3  col: 1  READY  Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [BC]: 1. Move & Attack
+2. Heal
+3. Cancel
+
+#####
+# AX#
+#B Y#
+#C Z#
+#####
+
+Red:
+	[A]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 3  col: 1  READY  Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [C]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+# AX#
+#BCY#
+#  Z#
+#####
+
+Red:
+	[A]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H:10  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  READY  Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  DONE   Swordsman
+	[Y]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [Y], or input / to Skip Attack: 
+
+
+Blue's Turn:
+
+#####
+# AX#
+#BCY#
+#  Z#
+#####
+
+Red:
+	[A]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  READY  Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  READY  Archer
+
+Select Unit [XYZ]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [ABC], or input / to Skip Attack: 
+#####
+# AX#
+#BCY#
+#  Z#
+#####
+
+Red:
+	[A]  H: 1  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 3  READY  Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [XY]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+#XA #
+#BCY#
+#  Z#
+#####
+
+Red:
+	[A]  H: 1  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H:10  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 5  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  READY  Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [AB], or input / to Skip Attack: 
+#####
+#XA #
+#BCY#
+#  Z#
+#####
+
+Red:
+	[A]  H: 1  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 3  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [Y]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+#XAY#
+#BC #
+#  Z#
+#####
+
+Red:
+	[A]  H: 1  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DONE   Swordsman
+	[B]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 3  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [A], or input / to Skip Attack: 
+
+
+Red's Turn:
+
+#####
+#X Y#
+#BC #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  READY  Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  READY  Knight
+
+Blue:
+	[X]  H: 3  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [BC]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [X], or input / to Skip Attack: 
+#####
+#X Y#
+#BC #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 2  col: 2  READY  Knight
+
+Blue:
+	[X]  H: 2  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [C]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+#XCY#
+#B  #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 2  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  READY  Knight
+
+Blue:
+	[X]  H: 2  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DONE   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [XY], or input / to Skip Attack: 
+
+
+Blue's Turn:
+
+#####
+# CY#
+#B  #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 1  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 6  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  READY  Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  READY  Archer
+
+Select Unit [YZ]: 1. Move & Attack
+2. Heal
+3. Cancel
+
+#####
+# CY#
+#B  #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  DONE   Pikeman
+	[C]  H: 1  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DONE   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  READY  Archer
+
+Select Unit [Z]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [BC], or input / to Skip Attack: 
+
+
+Red's Turn:
+
+#####
+#  Y#
+#B  #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 1  READY  Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [B]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+#  Y#
+#   #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 7  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  READY  Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  DONE   Pikeman
+	[Z]  H:10  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [Z], or input / to Skip Attack: 
+
+
+Blue's Turn:
+
+#####
+#  Y#
+#   #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 5  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DONE   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  READY  Pikeman
+	[Z]  H: 5  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  READY  Archer
+
+Select Unit [YZ]: 1. Move & Attack
+2. Heal
+3. Cancel
+
+#####
+#  Y#
+#   #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 5  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DONE   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 1  col: 3  READY  Pikeman
+	[Z]  H: 8  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [Y]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: 
+#####
+#   #
+# Y #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 5  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DONE   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 9  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 2  READY  Pikeman
+	[Z]  H: 8  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Enemy Unit to Attack [B], or input / to Skip Attack: 
+
+
+Red's Turn:
+
+#####
+#   #
+# Y #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 4  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  READY  Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 2  DONE   Pikeman
+	[Z]  H: 8  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [B]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [YZ], or input / to Skip Attack: 
+
+
+Blue's Turn:
+
+#####
+#   #
+# Y #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 2  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DONE   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 2  READY  Pikeman
+	[Z]  H: 5  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  READY  Archer
+
+Select Unit [YZ]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [B], or input / to Skip Attack: 
+#####
+#   #
+# Y #
+# BZ#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 1  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DONE   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 2  READY  Pikeman
+	[Z]  H: 4  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+Select Unit [Y]: 1. Move & Attack
+2. Heal
+3. Cancel
+Enter movement delta (row col), input (0 0) to Hold Position: Select Enemy Unit to Attack [B], or input / to Skip Attack: 
+
+
+#####
+#   #
+# Y #
+#  Z#
+#####
+
+Red:
+	[A]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 2  DEAD   Swordsman
+	[B]  H: 0  A: 8  D: 7  AR: 1  MR: 3  row: 3  col: 2  DEAD   Pikeman
+	[C]  H: 0  A:14  D: 3  AR: 1  MR:10  row: 1  col: 2  DEAD   Knight
+
+Blue:
+	[X]  H: 0  A:10  D: 5  AR: 1  MR: 5  row: 1  col: 1  DEAD   Swordsman
+	[Y]  H: 8  A: 8  D: 7  AR: 1  MR: 3  row: 2  col: 2  DONE   Pikeman
+	[Z]  H: 4  A: 9  D: 1  AR: 5  MR: 3  row: 3  col: 3  DONE   Archer
+
+
+GAME OVER
+Red LOST
+Blue WON
+
